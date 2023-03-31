@@ -20,10 +20,8 @@ public class homework4 {
                     break;
                 case '*': result=calculate.multiplication(number,number2);
                     break;
-                case '/':
-                    result=calculate.division(number,number2);
-
-                break;
+                case '/': result=calculate.division(number,number2);
+                    break;
                 case '%': result=calculate.percentage(number,number2);
                     break;
                 default:
