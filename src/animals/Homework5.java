@@ -15,11 +15,11 @@ public class Homework5 {
 
         System.out.println("------------------");
 
-        Cat fann = new Cat();
+        Cat fann = new Cat(true,"",6, "red"); //конструктор 1 з Cat
         fann.setVegetarian(false);
         fann.setEats("mouse and beer ");
         fann.setNoOfLegs(2);
-        fann.setColor("red");
+        // fann.setColor("black");
         System.out.println("About class Cat:");
         System.out.println("is vegetarians: " + fann.isVegetarian());
         System.out.println("what kind of food: " + fann.getEats());
@@ -28,8 +28,8 @@ public class Homework5 {
 
         System.out.println("------------------");
 
-        Cat fann1 = new Cat();
-        fann1.setColor("green");
+        Cat fann1 = new Cat(true,"",6); //конструктор 2
+        //fann1.setColor("green");
         System.out.println("color is : " + fann1.getColor());
 
         System.out.println("------------------");
