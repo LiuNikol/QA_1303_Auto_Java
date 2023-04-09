@@ -18,13 +18,21 @@ public class Homework5 {
         Cat fann = new Cat();
         fann.setVegetarian(false);
         fann.setEats("mouse and beer ");
-        fann.setNoOfLegs(4);
+        fann.setNoOfLegs(2);
         fann.setColor("red");
         System.out.println("About class Cat:");
         System.out.println("is vegetarians: " + fann.isVegetarian());
         System.out.println("what kind of food: " + fann.getEats());
         System.out.println("howe many legs: " + fann.getNoOfLegs());
         System.out.println("color is : " + fann.getColor());
+
+        System.out.println("------------------");
+
+        Cat fann1 = new Cat();
+        fann1.setColor("green");
+        System.out.println("color is : " + fann1.getColor());
+
+        System.out.println("------------------");
     }
 }
 //    public static void main(String[] args) {

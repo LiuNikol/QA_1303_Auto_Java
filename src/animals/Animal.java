@@ -33,7 +33,7 @@ public class Animal {
     }
     public void setNoOfLegs(int noOfLegs)// { this.noOfLegs = noOfLegs;} це стандарт
     {
-        if (noOfLegs > 2 && noOfLegs < 4) {  //умова що лап не може бути менше 2 більше 4
+        if (noOfLegs > 1 && noOfLegs < 5) {  //умова що лап не може бути менше 2 більше 4
             this.noOfLegs = noOfLegs;
         }else {
             this.noOfLegs = 4;} //*якщо лап менше 2 чи більше 4, то виведе 4
