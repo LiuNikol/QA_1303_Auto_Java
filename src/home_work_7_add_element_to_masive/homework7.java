@@ -68,6 +68,7 @@ public class homework7 {
             System.out.println("----------------------------------------------");
 
 
+
             /* блок запиту на повторний запуск програми */
             System.out.println("Do you want to restart the program? (Y/N)");
             String answer = scanner.next();
